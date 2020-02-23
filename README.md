@@ -9,3 +9,9 @@ An example project that uses fiber as webserver, and go-pg library for connectin
 cp .env.sample .env
 source .env
 ```
+
+```bash
+# get dependencies and run
+go get -v ./...
+go run .
+```
